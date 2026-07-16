@@ -375,12 +375,12 @@ class full_combustor:
         p_sens = torch.from_numpy(self.p_sens)
 
         # saving trajectory
-        out_path_tens = f'{self.out_dir}/runs8'
+        out_path_tens = f'{self.out_dir}/runs1'
         os.makedirs(out_path_tens, exist_ok=True)
         torch.save(p_sens, f'{out_path_tens}/sim_{self.i_sim}.pt')
 
         # saving trajectory metadata dict
-        out_path_dct = f'{self.out_dir}/dct_meta8'
+        out_path_dct = f'{self.out_dir}/dct_meta1'
         os.makedirs(out_path_dct, exist_ok=True)
         torch.save(self.dct_out, f"{out_path_dct}/sim_{self.i_sim}.pth")
 

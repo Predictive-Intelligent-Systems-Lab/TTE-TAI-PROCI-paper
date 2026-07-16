@@ -17,7 +17,7 @@ if ROOT not in sys.path:
 
 from model import lstm_reg_model
 from preprocess_mod import WindowDataset
-from rebuttal_analysis.common import DT, ensure_dir, load_metadata, set_seed, write_json
+from common import DT, ensure_dir, load_metadata, set_seed, write_json
 from trans_train import (
     compute_uniform_label_log_stats,
     compute_pool_sizes_like_original,

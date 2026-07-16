@@ -16,11 +16,10 @@ if ROOT not in sys.path:
 
 SCRIPT_PARENT = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-if SCRIPT_PARENT == "rebuttal_analysis":
-    from common import (
-        SyntheticOnsetConfig,
-        load_experimental_run,
-        relabel_onset_from_saved_run,
+from common import (
+    SyntheticOnsetConfig,
+    load_experimental_run,
+    relabel_onset_from_saved_run,
     )
 
 

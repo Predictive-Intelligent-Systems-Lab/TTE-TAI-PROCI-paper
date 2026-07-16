@@ -24,7 +24,7 @@ if ROOT not in sys.path:
 
 from model import trans_reg_model
 from preprocess_mod import WindowDataset
-from rebuttal_analysis.common import (
+from common import (
     DT,
     ensure_dir,
     load_experimental_onsets,
