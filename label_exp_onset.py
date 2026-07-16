@@ -1,6 +1,6 @@
 """
 Label experimental ramps with the same quantile-threshold persistence onset
-finder used for synthetic relabelling.
+finder used for synthetic labelling.
 """
 from __future__ import annotations
 
