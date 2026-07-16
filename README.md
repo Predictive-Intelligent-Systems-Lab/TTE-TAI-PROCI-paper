@@ -1,8 +1,6 @@
-# TTE-TAI-PROCI paper
+# Deep learning for continuous lead-time prediction of thermoacoustic instabilities in an annular combustor
 
 Research code for the Proceedings of the Combustion Institute paper *Deep learning for continuous lead-time prediction of thermoacoustic instabilities in an annular combustor*. The study formulates thermoacoustic-instability forecasting as continuous regression of the remaining time to onset from multichannel pressure measurements. It compares a causal Transformer, a unidirectional LSTM, and an XGBoost feature baseline trained on synthetic trajectories from a stochastic reduced-order model of a 12-burner annular combustor.
-
-**The datasets and pretrained checkpoints are not included in this repository.**
 
 ## Study context
 
@@ -218,3 +216,6 @@ The full training defaults assume a large synthetic dataset. For smaller dataset
 - Training summaries persist the effective configuration and trajectory-pool sizes.
 - XGBoost seeds Python, NumPy, PyTorch, window sampling, and model fitting from the module-level `SEED`; its trajectory split uses `Config.split_seed`.
 - The XGBoost configuration and effective onset-metadata source are saved with every run.
+
+
+**The datasets and pretrained checkpoints are not included in this repository.**
