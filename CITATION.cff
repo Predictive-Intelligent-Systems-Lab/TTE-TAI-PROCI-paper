@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Deep learning for continuous lead-time prediction of thermoacoustic instabilities in an annular combustor"
+type: software
+version: 1.0.0
+date-released: 2026-10-01
+
+authors:
+  - family-names: "Ponchet de Langlade"
+    given-names: "Géraud"
+  - family-names: "Mohamad"
+    given-names: "Mustafa A."
+
+repository-code: "https://github.com/Predictive-Intelligent-Systems-Lab/TTE-TAI-PROCI-paper"
+
+url: "https://github.com/Predictive-Intelligent-Systems-Lab/TTE-TAI-PROCI-paper"
