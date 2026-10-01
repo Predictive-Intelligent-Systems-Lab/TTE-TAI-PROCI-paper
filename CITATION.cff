@@ -13,4 +13,6 @@ authors:
 
 repository-code: "https://github.com/Predictive-Intelligent-Systems-Lab/TTE-TAI-PROCI-paper"
 
-url: "https://github.com/Predictive-Intelligent-Systems-Lab/TTE-TAI-PROCI-paper"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23091955"
