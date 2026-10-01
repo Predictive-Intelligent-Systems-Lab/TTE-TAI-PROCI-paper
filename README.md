@@ -219,3 +219,8 @@ The full training defaults assume a large synthetic dataset. For smaller dataset
 
 
 **The datasets and pretrained checkpoints are not included in this repository.**
+
+## Archived release
+
+The publication version of this repository is archived on Zenodo:
+https://doi.org/10.5281/zenodo.23091955
